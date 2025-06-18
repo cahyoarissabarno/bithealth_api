@@ -19,8 +19,7 @@ The service recommends one of the following departments based on patient symptom
 - Google AI Studio API key (get it from https://aistudio.google.com)
 
 ## Setup
-1. **Clone or create the project**:
-   - Save `main.py`, `requirements.txt`, `.env.example`, and `README.md` in a project directory (e.g., `triage_service`).
+1. **Clone the project**:
 
 2. **Install dependencies**:
    - Install required libraries using `requirements.txt`:
@@ -29,25 +28,13 @@ The service recommends one of the following departments based on patient symptom
      ```
 
 3. **Set environment variable**:
-   - Copy `.env.example` to `.env` and add your Google API key:
+   - Copy `.env.example` to `.env` :
      ```bash
      cp .env.example .env
      ```
    - Edit `.env` to include your API key, e.g.:
      ```
      GOOGLE_API_KEY=your-api-key-here
-     ```
-   - Alternatively, export the key manually:
-     ```bash
-     export GOOGLE_API_KEY='your-api-key-here'
-     ```
-   - On Windows, use:
-     ```cmd
-     set GOOGLE_API_KEY=your-api-key-here
-     ```
-   - Verify the key is set:
-     ```bash
-     echo $GOOGLE_API_KEY
      ```
 
 ## Running the App

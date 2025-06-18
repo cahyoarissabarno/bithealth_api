@@ -1,6 +1,6 @@
-# Hospital Triage Department Recommendation Service
+# Hospital Triage Department Recommendation API
 
-This FastAPI service recommends a hospital department based on patient gender, age, and symptoms using the Gemini LLM via LangChain. It assists non-medical staff in triaging patients by suggesting the most relevant department, reducing wait times and human error.
+This API service recommends a hospital department based on patient gender, age, and symptoms using the Gemini LLM via LangChain. It assists non-medical staff in triaging patients by suggesting the most relevant department, reducing wait times and human error.
 
 ## Available Departments
 The service recommends one of the following departments based on patient symptoms, gender, and age:

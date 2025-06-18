@@ -15,11 +15,14 @@ The service recommends one of the following departments based on patient symptom
 - **Dermatologi**: Specializes in skin, hair, and nail conditions. Manages symptoms including gatal (itching), ruam kulit (skin rash), kemerahan (redness), jerawat parah (severe acne), or luka tidak sembuh (non-healing sores).
 
 ## Prerequisites
-- Python 3.8+
+- Python 3.9+
 - Google AI Studio API key (get it from https://aistudio.google.com)
 
 ## Setup
-1. **Clone the project**:
+1. **Clone the project**
+    ```bash
+    git clone https://github.com/cahyoarissabarno/bithealth_api.git
+    ```
 
 2. **Install dependencies**:
    - Install required libraries using `requirements.txt`:
